@@ -1,2 +1,6 @@
 *.deb
 *.tar.xz
+jetson/Downloads/*
+jetson/dot-nvsdkm/*
+jetson/opt/*
+jetson/nvidia/nvidia_sdk/*
