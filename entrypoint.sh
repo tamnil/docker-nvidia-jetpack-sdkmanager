@@ -3,15 +3,16 @@ set -e
 
 sdkmanager \
 --cli install \
---user email@domain.com \
---password xyz \
+--datacollection disable \
 --logintype devzone \
+--staylogin true \
 --product Jetson \
---version 4.3 \
+--version 5.1.1 \
 --targetos Linux \
 --host \
---target P3310 \
---flash \
+--target JETSON_XAVIER_NX_TARGETS \
+--flash all \
+--additionalsdk 'DeepStream 6.2' \
 --license accept
 
 exec "$@"

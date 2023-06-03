@@ -1,5 +1,3 @@
-# JetPack SDK in Docker for simple and clean flashing of a Jetson TX2
+# Host ubuntu 22.04 - JetPack 5.1.1 SDK in Docker for simple and clean flashing of a Jetson NX
 
-This repository is connected to the description as a medium.com article at:
 
-https://medium.com/@trn84/jetpack-sdk-in-docker-for-simple-and-clean-flashing-of-a-jetson-tx2-32b4db6c8d65
